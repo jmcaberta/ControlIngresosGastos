@@ -48,13 +48,13 @@
                     }
                     else
                     {
-                        <p class="btn btn-outline-warning">Inactivo</p>
+                        <p class="btn btn-outline-danger">Inactivo</p>
                     }
             </td>
             <td>
                 <a class="btn btn-outline-secondary" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
                 <a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a class="btn btn-outline-warning" asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
+                <a class="btn btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
             </td>
         </tr>
 }
