@@ -38,9 +38,9 @@
                 @Html.DisplayFor(modelItem => item.Estado)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
+                <a class="btn btn-light" asp-action="Edit" asp-route-id="@item.Id">Editar</a>                   
+                <a class="btn btn-light" asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a class="btn btn-light" asp-action="Delete" asp-route-id="@item.Id">Borrar</a>
             </td>
         </tr>
 }
